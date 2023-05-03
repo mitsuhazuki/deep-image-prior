@@ -60,7 +60,7 @@ you will be provided an URL through which you can connect to the Jupyter noteboo
 
 ## Google Colab
 
-To run it using Google Colab, click [here](https://colab.research.google.com/github/DmitryUlyanov/deep-image-prior) and select the notebook to run. Remember to uncomment the first cell to clone the repository into colab's environment.
+To run it using Google Colab, click [here](https://colab.research.google.com/github/mitsuhazuki/deep-image-prior) and select the notebook to run. Remember to uncomment the first cell to clone the repository into colab's environment.
 
 
 # Citation
