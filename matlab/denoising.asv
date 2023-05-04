@@ -1,0 +1,13 @@
+load('outputs.mat');
+
+img=zeros()
+
+for i=1:length(outputs(:,1,1,1))
+    can1 = reshape(outputs(i,1,:,:),512,512);
+    can2 = reshape(outputs(i,2,:,:),512,512);
+    can3 = reshape(outputs(i,3,:,:),512,512);
+    
+    img(i) = cat(3,can1,can2,can3);
+end
+
+imshow(img)
