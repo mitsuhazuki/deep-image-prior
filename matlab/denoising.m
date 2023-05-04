@@ -2,6 +2,9 @@ clear
 close all
 clc
 
+% Deep Image Prior: denoising
+
+%% Load Images
 load('outputs.mat');
 
 N = length(outputs(:,1,1,1));
@@ -15,5 +18,28 @@ for i=1:N
     img(i,:,:,:) = cat(3,can1,can2,can3);
 end
 
-n=8;
+%% Affichage Images
+n=1;
 imshow(reshape(img(n,:,:,:),512,512,3))
+
+%% 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
